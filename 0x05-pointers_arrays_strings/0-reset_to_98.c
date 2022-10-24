@@ -1,16 +1,12 @@
 #include "main.h"
+
 /**
- * main -reset to 98
+ * reset_to_98 - Updates the value of the parameter to 98
+ * @n: The value
  *
- * Return: always 0
+ * Return: None
  */
 void reset_to_98(int *n)
 {
-	int n;
-	*n = 98
-
-	n = 402;
-	putchar("n=%d\n" , n);
-		putchar("n=%d\n" , &n);
-		return (0);
+	*n = 98;
 }
