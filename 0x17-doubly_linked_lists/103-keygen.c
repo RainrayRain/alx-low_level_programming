@@ -124,3 +124,4 @@ int main(int argc, char **argv)
 	for (ch = 0; keygen[ch]; ch++)
 		printf("%c", keygen[ch]);
 	return (0);
+}
